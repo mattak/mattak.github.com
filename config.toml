@@ -1,3 +1,6 @@
 baseURL = "https://mattak.github.com/"
 languageCode = "ja-jp"
-title = "mattak.io"
+title = "mattak"
+theme = 'diamond'
+
+
