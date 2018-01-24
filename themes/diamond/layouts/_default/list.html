@@ -1,0 +1,17 @@
+{{ define "main" -}}
+<div class="posts">
+    list
+    {{ range .Data.Pages -}}
+    <div class="post">
+        <h1>{{ .Title }}</h1>
+        <span>{{ .Date.Format "2018/01/01 Tue." }}</span>
+        {{ .Summary }}
+        {{ if .Trucated }}
+        <div class="read-more-link">
+            <a href="{{ .RelPermalink }}">More</a>
+        </div>
+        {{ end }}
+    </div>
+    {{- end }}
+</div>
+{{- end }}
