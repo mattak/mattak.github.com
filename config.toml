@@ -3,4 +3,14 @@ languageCode = "ja-jp"
 title = "mattak"
 theme = 'diamond'
 
-
+[[menu.main]]
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about"
+[[menu.main]]
+    name = "work"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/work"
