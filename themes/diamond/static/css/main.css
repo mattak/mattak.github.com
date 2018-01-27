@@ -1,0 +1,61 @@
+.site-header {
+    background-color: #2E2E2E;
+}
+
+/* footer */
+.social-btn__qiita {
+    background-image: url('/images/qiita-white.svg');
+}
+
+.social-btn__github {
+    background-image: url('/images/github-white.svg');
+}
+
+.social-btn__twitter {
+    background-image: url('/images/twitter-white.svg');
+}
+
+.site-footer.mdl-mini-footer {
+    height: 60px;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.site-footer.mdl-mini-footer ul {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    height: 24px;
+    text-align: center;
+}
+
+.site-footer.mdl-mini-footer ul > li {
+    position: relative;
+}
+
+.site-footer.mdl-mini-footer ul > li > a {
+    width: 24px;
+    height: 24px;
+}
+
+.site-footer.mdl-mini-footer .social-btn {
+    display: block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.site-footer.mdl-mini-footer .mdl-mini-footer--social-btn {
+    background-color: transparent;
+    margin: 0 16px;
+    height: 24px;
+    width: 24px;
+}
