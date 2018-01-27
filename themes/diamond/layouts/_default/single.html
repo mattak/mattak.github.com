@@ -1,1 +1,14 @@
-single
+<!DOCTYPE html>
+<html lang='{{ .Site.Language.Lang }}'>
+{{ partial "html-header" . }}
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    {{ partial "body-header" . }}
+
+    <main class="docs-layout-content mdl-layout__content mdl-color-text--grey-600">
+        {{ .Content }}
+        {{ partial "body-footer" . }}
+    </main>
+</div>
+</body>
+</html>
